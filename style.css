@@ -10,73 +10,92 @@ body {
 
     }
     .cartao__conteudo h3 {
-    color: var(--text-color);
-    border: 1px solid var(--text-color);
+    color: var (--text-color);
+    border: 1 px solid var (--text-color);
     text-align: left;
-    padding: 0.5rem;
+    padding: 0.5 rem;
     position: absolute;
-    margin: 0.6rem;
-    border-radius: 0.6rem;
-    font-size: 1vw;
+    margin: 0.6 rem;
+    border-radius: 0.6 rem;
+    font-size: 1 vw;
     }
     .cartao__conteudo {
-    background-color: var(--card-front-color);
+    background-color: var (--card-front-color);
     text-align: center;
     /* background-color: aquamarine; */
     height: auto;
     background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
     }
     .cartao {
-    margin: 1rem 1rem;
-    height: 20rem;
-    width: 55rem;
+    margin: 1 rem 1 rem;
+    height: 20 rem;
+    width: 55 rem;
     flex-grow: 1;
-    flex-basis: calc(33% - 6rem);
+    flex-basis: calc (33 % - 6 rem);
     }
     .cartao__conteudo__pergunta p {
-    color: var(--text-color);
+    color: var (--text-color);
     font-weight: 500;
 
     
     }
     
     .cartao__conteudo__resposta p {
-    color: var(--card-back-color);
+    color: var (--card-back-color);
     font-weight: 700;
     }
     .cartao:hover .cartao__conteudo{
-        transform: rotateY(180deg)
+        transform: rotateY (180 deg)
     }
     .cartao__conteudo{
-        background-color: var(--card-front-color);
+        background-color: var (--card-front-color);
         text-align: center;
-        height: 100%;
+        height: 100 %;
         transform-style: preserve-3d;
-        transition: transform 300ms ease-in-out;
+        transition: transform 300 ms ease-in-out;
     }
     .cartao__conteudo h3 {
-        color: var(--text-color);
-        border: 1px solid var(--text-color);
+        color: var (--text-color);
+        border: 1 px solid var (--text-color);
         text-align: left;
-        padding: 0.5rem;
+        padding: 0.5 rem;
         position: absolute;
-        margin: 0.6rem;
-        border-radius: 0.6rem;
-        font-size: 1vw;
+        margin: 0.6 rem;
+        border-radius: 0.6 rem;
+        font-size: 1  vw;
         backface-visibility: hidden;
     }
     .cartao__conteudo__pergunta,
     .cartao__conteudo__resposta{
         backface-visibility: hidden;
         position: absolute;
-        height: 100%;
-        width: 100%;
+        height: 100 ;
+        width: 100 
+            %;
     }
     .cartao__conteudo__resposta{
-        transform: rotateY(180deg);
+        transform: rotateY (180 deg);
     }
     .cartao__conteudo p {
-        margin-top: 1rem;
-        padding: 2rem;
-        margin-top: 4rem;
+        margin-top: 1 rem;
+        padding: 2 rem;
+        margin-top: 4 rem;
     }
+.menu-acessibilidade{
+    position: fixed;
+    top:2 rem;
+    right:20 px;
+    z-index: 1000;
+}
+   .rotacao-botao{ 
+      transform: rotate (-90 deg);
+      transform-origin: right center;
+}
+.opcoes-acessibilidade{
+    margin-top:10 px;
+    display: flex;
+    flex-direction: column;
+}
+.opcoes-acessibilidade button{
+    margin-bottom: 5 px;
+}
